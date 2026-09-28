@@ -35,9 +35,9 @@ Questionnaires administered in Qualtrics included 13 features of Aesthetic evalu
 
 ## Using the rectangle-drawing task in Qualtrics
 
-1. **Add the HTML.** Create a Text/Graphic question in Qualtrics, open the question text's **HTML View**, and paste in the code from [`html/rectangle_task.html`](html/rectangle_task.html).
+1. **Add the HTML.** Create a Text/Graphic question in Qualtrics, open the question text's **HTML View**, and paste in the code from [`html/`](html/).
 2. **Link your image.** Upload the text image to your Qualtrics Library, copy its URL, and replace the image link in the HTML with it.
-3. **Add the JavaScript.** Open the question's **JavaScript** editor and paste in the code from [`task/rectangle_task.js`](task/rectangle_task.js).
+3. **Add the JavaScript.** Open the question's **JavaScript** editor and paste in the code from [`task/`](task/).
 4. **Set up data storage.** In **Survey Flow**, add an **Embedded Data** element *before* the question block, and create the fields used to store the rectangle data (e.g. `[field_name]`).
 5. **Test it.** Preview the survey, draw a few rectangles, then export the responses and check that the coordinates are recorded.
 
