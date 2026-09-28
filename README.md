@@ -28,9 +28,8 @@ Questionnaires administered in Qualtrics included 13 features of Aesthetic evalu
 ```
 ├── task/                               # JavaScript rectangle-drawing task for Qualtrics
 ├── stimuli/                            # Texts and annotation layouts
-├── data/                               # Raw and processed data (see Data section)
+├── html/                               # html code for setting up the stimuli
 ├── pre-processing_and_analysis/        # Analysis scripts (Python / R)
-└── results/                            # Figures and model outputs
 ```
 
 ## Using the rectangle-drawing task in Qualtrics
